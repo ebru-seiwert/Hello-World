@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		9BAEB2412BC98B7300E9DE62 /* Hello_WorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB2402BC98B7300E9DE62 /* Hello_WorldApp.swift */; };
-		9BAEB2432BC98B7300E9DE62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB2422BC98B7300E9DE62 /* ContentView.swift */; };
 		9BAEB2452BC98B7400E9DE62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAEB2442BC98B7400E9DE62 /* Assets.xcassets */; };
 		9BAEB2482BC98B7400E9DE62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAEB2472BC98B7400E9DE62 /* Preview Assets.xcassets */; };
 		9BAEB2522BC98B7400E9DE62 /* Hello_WorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB2512BC98B7400E9DE62 /* Hello_WorldTests.swift */; };
 		9BAEB25C2BC98B7400E9DE62 /* Hello_WorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB25B2BC98B7400E9DE62 /* Hello_WorldUITests.swift */; };
 		9BAEB25E2BC98B7400E9DE62 /* Hello_WorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB25D2BC98B7400E9DE62 /* Hello_WorldUITestsLaunchTests.swift */; };
+		9BAEB26B2BC9962200E9DE62 /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAEB26A2BC9962200E9DE62 /* HelloWorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		9BAEB23D2BC98B7300E9DE62 /* Hello World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAEB2402BC98B7300E9DE62 /* Hello_WorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldApp.swift; sourceTree = "<group>"; };
-		9BAEB2422BC98B7300E9DE62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9BAEB2442BC98B7400E9DE62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BAEB2472BC98B7400E9DE62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BAEB24D2BC98B7400E9DE62 /* Hello WorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		9BAEB2572BC98B7400E9DE62 /* Hello WorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello WorldUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAEB25B2BC98B7400E9DE62 /* Hello_WorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITests.swift; sourceTree = "<group>"; };
 		9BAEB25D2BC98B7400E9DE62 /* Hello_WorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_WorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9BAEB26A2BC9962200E9DE62 /* HelloWorldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9BAEB2402BC98B7300E9DE62 /* Hello_WorldApp.swift */,
-				9BAEB2422BC98B7300E9DE62 /* ContentView.swift */,
+				9BAEB26A2BC9962200E9DE62 /* HelloWorldView.swift */,
 				9BAEB2442BC98B7400E9DE62 /* Assets.xcassets */,
 				9BAEB2462BC98B7400E9DE62 /* Preview Content */,
 			);
@@ -257,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BAEB2432BC98B7300E9DE62 /* ContentView.swift in Sources */,
 				9BAEB2412BC98B7300E9DE62 /* Hello_WorldApp.swift in Sources */,
+				9BAEB26B2BC9962200E9DE62 /* HelloWorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
