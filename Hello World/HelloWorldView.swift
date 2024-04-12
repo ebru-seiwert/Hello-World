@@ -9,9 +9,9 @@ import SwiftUI
 
 struct HelloWorldView: View {
     var body: some View {
-        VStack {
+        HStack {
+            CardView(isFaceUp: false)
             CardView(isFaceUp: true)
-            CardView()
             CardView(isFaceUp: true)
             CardView()
         }
@@ -20,11 +20,11 @@ struct HelloWorldView: View {
     }
 }
 struct CardView: View {
-    var isFaceUp: Bool = false
+    @State var isFaceUp = false
             
         var body: some View {
             ZStack {
-                var base: RoundedRectangle = RoundedRectangle(cornerRadius: 12)
+                let base = Circle()
                 
                 if isFaceUp {
                     base.fill(.white)
@@ -34,7 +34,13 @@ struct CardView: View {
                     base.fill()
                         }
             }
-    }
+            .onTapGesture
+            {
+            //  isFaceUp = !isFaceUp
+                isFaceUp.toggle()
+            }
+        }
+       
 }
 #Preview {
     HelloWorldView()
